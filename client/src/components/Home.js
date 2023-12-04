@@ -20,7 +20,7 @@ const Home = () => {
                 {/* Additional Text with Space */}
                 <p className="mt-16 text-gray-900 text-2xl">Assignment of Piyush Tale </p>
                 <p className=" text-gray-900 text-2xl"> Email -: Piyush20001024@gmail.com </p>
-                <p className=" text-gray-900 text-2xl"> Github -:  </p>
+                <p className=" text-gray-900 text-2xl"> Github -: https://github.com/Piyush24102000/Bhumio-Assignment </p>
 
             </div>
         </div>
