@@ -6,7 +6,7 @@ const Issues = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await fetch('http://localhost:5000/getIssues');
+        const response = await fetch('https://bhumioserver.vercel.app/getIssues');
         const dataIssues = await response.json();
         setIssues(dataIssues.message)
       } catch (error) {
