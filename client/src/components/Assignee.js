@@ -7,7 +7,7 @@ const Assignee = () => {
     useEffect(() => {
         const getData = async () => {
             try {
-                const response = await fetch('http://localhost:5000/getAssignee');
+                const response = await fetch('https://bhumioserver.vercel.app/getAssignee');
                 const dataAssignee = await response.json();
                 setCount(dataAssignee.message.totalCount);
                 setObj(dataAssignee.message.countMap)
